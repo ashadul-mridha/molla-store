@@ -8,8 +8,17 @@ const TopNav = () => {
             <div className='row align-items-center'>
                 <div className='col-md-3'>
                     <div className='category'>
-                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-bars d-xs-none"></i>
                         <span>Browse Categories</span>
+                        <ul>
+                            <li>Electronic</li>
+                            <li>Cosmetics</li>
+                            <li>Shirt</li>
+                            <li>Pant</li>
+                            <li>shoes</li>
+                            <li>Furniture</li>
+                            <li>Glass</li>
+                        </ul>
                     </div>
                 </div>
                 <div className='col-md-6'>
@@ -23,8 +32,39 @@ const TopNav = () => {
                                 <li className="nav-item">
                                 <a className="nav-link text-dark pe-4" aria-current="page">Home</a>
                                 </li>
-                                <li className="nav-item">
-                                    <a className="nav-link text-dark pe-4">Pages</a>
+                                <li class="nav-item dropdown dropdown-mega position-static">
+                                    <a class="nav-link dropdown-toggle text-dark pe-4" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Shop</a>
+                                    <div class="dropdown-menu shadow">
+                                    <div class="mega-content px-4">
+                                        <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-12 col-md-4 py-4">
+                                                <p>Shop With Sidebar</p>
+                                                <div class="list-group">
+                                                    <a class="list-group-item" href="#">Default</a>
+                                                    <a class="list-group-item" href="#">Slack</a>
+                                                    <a class="list-group-item" href="#">Sticky</a>
+                                                    <a class="list-group-item" href="#">Discord</a>
+                                                    <a class="list-group-item" href="#">Fb</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-4 py-4">
+                                                <p>Product category</p>
+                                                <div class="list-group">
+                                                    <a class="list-group-item" href="#">Default</a>
+                                                    <a class="list-group-item" href="#">Slack</a>
+                                                    <a class="list-group-item" href="#">Sticky</a>
+                                                    <a class="list-group-item" href="#">Discord</a>
+                                                    <a class="list-group-item" href="#">Fb</a>
+                                                </div>
+                                            </div>
+                                            <div className='col-12 col-md-4'>
+                                                <img src='https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHByb2R1Y3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60' alt='' className='img-fluid'/>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link text-dark pe-4">Blog</a>

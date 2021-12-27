@@ -13,6 +13,26 @@
     padding-left: 15px;
 }
 
+.category{
+    position: relative;
+}
+.category ul{
+    position: absolute;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 35px;
+}
+.category ul > li{
+    padding: 9px 19px 9px 5px;
+    border: 1px solid rgba(212, 209, 209, 0.431);
+    border-top: none;
+    color: #595a5a;
+    width: 100%;
+    display: block;
+}
+
 /* .mega-menu{
     position: absolute;
 }
