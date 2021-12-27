@@ -1,0 +1,26 @@
+.heading{
+    color: red;
+}
+
+.category{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.category span{
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+/* .mega-menu{
+    position: absolute;
+}
+
+.mega-menu{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 15px;
+} */

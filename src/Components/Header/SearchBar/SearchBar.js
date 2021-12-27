@@ -5,7 +5,7 @@ import logo from '../../../Images/logo.png';
 const SearchBar = () => {
     return (
         <div className='container px-2'>
-            <div className='row my-4'>
+            <div className='row mt-4 mb-1'>
                 <div className='col-md-3'>
                     <img src={logo} width='104' height='27' alt=''/>
                 </div>
