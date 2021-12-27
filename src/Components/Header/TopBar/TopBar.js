@@ -5,10 +5,20 @@ const TopBar = () => {
     return (
         <div className={styles.wrapper}>
             <p>Special collection already available.Read more ...</p>
-            <ul>
-                <li>Usd</li>
-                <li className='text-danger'>Eng</li>
-                <li>Sign/Sign Up</li>
+            <ul className={styles.rightbar}>
+                <li className='bb'>Usd <i class="fas fa-angle-down"></i> 
+                    <ul className={`${styles.topDropdown} ${styles.moneyDrop}`}>
+                        <li>Eur</li>
+                        <li>TK</li>
+                    </ul>
+                </li>
+                <li>Eng <i class="fas fa-angle-down"></i> 
+                    <ul className={styles.countryDrop}>
+                        <li>Ban</li>
+                        <li>Fr</li>
+                    </ul>
+                </li>
+                <li>Sign/Sign Up <i class="fas fa-angle-down"></i> </li>
             </ul>
         </div>
     );

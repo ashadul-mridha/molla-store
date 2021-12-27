@@ -1,0 +1,18 @@
+.icon:hover{
+    color: #acc964;
+    cursor: pointer;
+}
+.iconSearch:hover{
+    color: #acc964;
+    cursor: pointer;
+}
+.icon{
+    margin: 0px 10px -2px 5px;
+    transition: all 0.3s ease-in-out;
+}
+.icon > i{
+    font-size: 22px;
+}
+p{
+    font-size: 13px;
+}
