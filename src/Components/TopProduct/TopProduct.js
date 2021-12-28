@@ -10,7 +10,7 @@ const TopProduct = () => {
                     <h3 className='text-muted me-4'>On Sale</h3>
                     <h3 className='text-muted'>Top Rated</h3>
                 </div>
-                <div className="grid-con g-3 mt-3">
+                <div className="grid-con-pro mt-3">
                     <div className="product">
                         <div className='position-relative'>
                             <img src="https://d-themes.com/react_asset_api/molla/uploads/product_1_2_300x300_d265cc4cd6.jpg" className='img-fluid' alt="" />

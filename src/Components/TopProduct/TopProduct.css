@@ -1,4 +1,4 @@
-.grid-con{
+.grid-con-pro{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 20px 10px;
@@ -73,7 +73,7 @@
 }
 
 @media screen and (max-width:992px) {
-    .grid-con{
+    .grid-con-pro{
         grid-template-columns: repeat(2,1fr);
         grid-gap: 15px 10px;
     }
