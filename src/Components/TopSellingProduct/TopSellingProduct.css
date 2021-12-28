@@ -1,9 +1,8 @@
 .grid-con{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
     grid-gap: 20px 10px;
 }
-
 
 .product-body > .product-cat{
     
@@ -72,7 +71,7 @@
     opacity: 1;
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width: 992px) {
     .grid-con{
         grid-template-columns: repeat(2,1fr);
         grid-gap: 15px 10px;

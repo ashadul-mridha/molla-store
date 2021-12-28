@@ -8,6 +8,7 @@ import TopNav from '../Header/TopNav/TopNav';
 import Hero from '../Hero/Hero';
 import PopularBrand from '../PopularBrand/PopularBrand';
 import TopProduct from '../TopProduct/TopProduct';
+import TopSellingProduct from '../TopSellingProduct/TopSellingProduct';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             <BannerGroup></BannerGroup>
             <TopProduct></TopProduct>
             <DealContent></DealContent>
+            <TopSellingProduct></TopSellingProduct>
         </div>
     );
 };

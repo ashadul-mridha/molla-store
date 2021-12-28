@@ -10,8 +10,8 @@ const TopProduct = () => {
                     <h3 className='text-muted me-4'>On Sale</h3>
                     <h3 className='text-muted'>Top Rated</h3>
                 </div>
-                <div className="row g-3">
-                    <div className="col-md-3 product">
+                <div className="grid-con g-3 mt-3">
+                    <div className="product">
                         <div className='position-relative'>
                             <img src="https://d-themes.com/react_asset_api/molla/uploads/product_1_2_300x300_d265cc4cd6.jpg" className='img-fluid' alt="" />
                             <div className="position-absolute top-0 end-0 mt-1 me-2">
@@ -41,7 +41,7 @@ const TopProduct = () => {
                         </div>
                     </div>
                     
-                    <div className="col-md-3 product">
+                    <div className=" product">
                         <div className='position-relative'>
                             <img src="https://d-themes.com/react_asset_api/molla/uploads/product_3_2_300x300_7ef429113e.jpg" className='img-fluid' alt="" />
                             <div className="position-absolute top-0 end-0 mt-1 me-2">
@@ -71,7 +71,7 @@ const TopProduct = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-3 product">
+                    <div className=" product">
                         <div className='position-relative'>
                             <img src="https://d-themes.com/react_asset_api/molla/uploads/product_2_2_300x300_798eabaee1.jpg" className='img-fluid' alt="" />
                             <div className="position-absolute top-0 end-0 mt-1 me-2">
@@ -101,7 +101,7 @@ const TopProduct = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-3 product">
+                    <div className=" product">
                         <div className='position-relative'>
                             <img src="https://d-themes.com/react_asset_api/molla/uploads/product_4_2_300x300_ec63a5f054.jpg" className='img-fluid' alt="" />
                             <div className="position-absolute top-0 end-0 mt-1 me-2">
