@@ -1,0 +1,19 @@
+.brand-div{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ebebeb;;
+}
+
+.brand-div > img{
+    object-fit: cover;
+}
+
+.brand-div:nth-child(1){
+    border-left: 0px;
+}
+
+.brand-div:nth-child(6){
+    border-right: 0px;
+}

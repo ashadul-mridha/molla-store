@@ -1,36 +1,74 @@
 .heading{
     color: red;
 }
+.header-category{
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 
 .category{
     display: flex;
     justify-content: start;
     align-items: center;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    transition: 0.3s all ease-in-out;
 }
 
 .category span{
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 15px;
 }
+.category .icon-bar{
+    font-size: 20px;
+}
+.category .icon-times{
+    display: none;
+    font-size: 20px;
+}
 
-.category{
-    position: relative;
+.category:hover{
+    background-color: #C7DB96;
+    color: #ffffff;
+}
+.category:hover > .icon-bar{
+    display: none;
+}
+.category:hover > .icon-times{
+    display: block;
 }
 .category ul{
     position: absolute;
     background-color: #ffffff;
-    top: 0;
+    top: 21px;
     left: 0;
     width: 100%;
     margin-top: 35px;
+    padding: 0px;
+    box-shadow: -7px -4px 43px -23px rgba(0,0,0,0.69);
+    display: none;
+}
+.category:hover > ul{
+    display: block;
 }
 .category ul > li{
-    padding: 9px 19px 9px 5px;
+    padding: 9px 19px 9px 19px;
     border: 1px solid rgba(212, 209, 209, 0.431);
     border-top: none;
     color: #595a5a;
     width: 100%;
     display: block;
+    transition: 0.3s all ease-in-out;
+}
+
+.category ul > li:hover{
+    color: #C7DB96;
+    cursor: pointer;
 }
 
 /* .mega-menu{

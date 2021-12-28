@@ -1,11 +1,16 @@
 import React from 'react';
 import './Header.css';
+import SearchBar from './SearchBar/SearchBar';
+import TopBar from './TopBar/TopBar';
+import TopNav from './TopNav/TopNav';
 
 const Header = () => {
     return (
-        <div>
-            <h1>Header</h1>
-        </div>
+        <header>
+            <TopBar></TopBar>
+            <SearchBar></SearchBar>
+            <TopNav></TopNav>
+        </header>
     );
 };
 

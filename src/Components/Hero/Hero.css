@@ -1,0 +1,24 @@
+.wrapperHero{
+    background-image: url('https://d-themes.com/react/molla/demo-1/images/home/sliders/slide-1-1.png');
+    background-position: top left;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.hero-content > h5{
+    font-size: 15px;
+    font-weight: 500;
+    color: #999;
+    letter-spacing: -.01em;
+}
+
+.hero-content > h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero-content > h3{
+    font-size: 45px;
+    font-size: 600;
+    color: #A6C76C;
+}

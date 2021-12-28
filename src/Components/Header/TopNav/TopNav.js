@@ -6,9 +6,10 @@ const TopNav = () => {
     return (
         <div className='container'>
             <div className='row align-items-center'>
-                <div className='col-md-3'>
+                <div className='col-md-3 header-category'>
                     <div className='category'>
-                        <i class="fas fa-bars d-xs-none"></i>
+                        <i class="fas fa-bars icon-bar"></i>
+                        <i class="fas fa-times icon-times"></i>
                         <span>Browse Categories</span>
                         <ul>
                             <li>Electronic</li>

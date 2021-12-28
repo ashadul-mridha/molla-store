@@ -1,0 +1,77 @@
+.coffe-table{
+    position: relative;
+}
+.coffe-table > img{
+object-fit: cover;
+max-height: 500px;
+}
+
+.decore{
+    position: relative;
+}
+.chair{
+    position: relative;
+}
+
+.brand-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 35px;
+    margin-left: 45px;
+}
+.brand-content h4{
+    color: #666;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.brand-content h3{
+    color: #333;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.brand-content p{
+    color: #666;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.25;
+}
+.kitchen-ware{
+    position: relative;
+}
+.kitchen-ware > .brand-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 35px;
+    margin-left: 45px;
+}
+
+.kitchen-ware > .brand-content h4{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.kitchen-ware > .brand-content h3{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.kitchen-ware > .brand-content p{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.25;
+}
+
+
+@media screen and (min-width: 992px) {
+    .kitchen-ware> img{
+        object-fit: cover;
+        min-height: 495px;
+    }
+}
