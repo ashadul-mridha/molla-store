@@ -31,7 +31,6 @@ ul{
 
 .moneyDrop{
     margin: 0px;
-    margin-top: 20px;
     padding: 10px 20px 20px 15px;
     position: absolute;
     background-color: #ffffff;
@@ -41,7 +40,6 @@ ul{
 
 .countryDrop{
     margin: 0px;
-    margin-top: 20px;
     padding: 10px 20px 20px 15px;
     position: absolute;
     background-color: #ffffff;

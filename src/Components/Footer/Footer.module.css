@@ -1,0 +1,30 @@
+.footerRight p{
+    font-size: 15px;
+    color: gray;
+    line-height: 1.8;
+    margin: 18px 0px;
+}
+
+.footerRight h6{
+    color: #a6c76c;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.footerLeft > h6{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footerLeft > ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footerLeft > ul > li{
+    font-size: 15px;
+    color: gray;
+    line-height: 1.8;
+}

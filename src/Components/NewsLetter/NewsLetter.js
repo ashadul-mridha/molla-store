@@ -8,12 +8,12 @@ const NewsLetter = () => {
                 <div className='col-lg-6 col-md-8 col-sm-10'>
                     <h4 className='text-center text-white '> Get The Latest Deals </h4>
                     <p className='text-center text-white'>and receive $20 coupon for first shopping</p>
-                    <div className='row pt-2 g-0 bg-light'>
+                    <div className='row py-1 g-0 bg-light'>
                         <div className='col-10'>
-                            <input type='email' placeholder='Enter Your Email Address' className='form-control border-0' />
+                            <input type='email' placeholder='Enter Your Email Address' className='form-control bg-white border-0' />
                         </div>
                         <div className='col-2'>
-                            <input type='submit' value='Subscribe' className='btn btn-light' />
+                            <button className='btn btn-light'>Subscribe <i class="fas fa-angle-right"></i></button>
                         </div>
                     </div>
                 </div>

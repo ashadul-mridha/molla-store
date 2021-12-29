@@ -1,6 +1,7 @@
 import React from 'react';
 import BannerGroup from '../BannerGroup/BannerGroup';
 import DealContent from '../DealContent/DealContent';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Hero from '../Hero/Hero';
 import Info from '../Info/Info';
@@ -21,6 +22,7 @@ const Home = () => {
             <TopSellingProduct></TopSellingProduct>
             <Info></Info>
             <NewsLetter></NewsLetter>
+            <Footer></Footer>
         </div>
     );
 };
