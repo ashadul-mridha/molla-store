@@ -30,7 +30,7 @@ const DealContent = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-3 d-none d-sm-none d-md-block">
                     <div className='deal-right-banner shadow'>
                             <img src="https://d-themes.com/react/molla/demo-1/images/home/banners/banner-5.jpg" alt="" className="img-fluid" />
                             <div className='deal-brand-content'>

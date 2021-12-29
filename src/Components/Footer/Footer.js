@@ -4,8 +4,8 @@ import styles from './Footer.module.css';
 const Footer = () => {
     return (
         <div className='container'>
-            <div className='row my-4'>
-                <div className='col-md-6 col-sm-12'>
+            <div className='row my-4 gy-3'>
+                <div className='col-md-6 col-12 col-sm-12'>
                     <div className={styles.footerRight}>
                         <img className='img-fluid' src='https://d-themes.com/react/molla/demo-1/images/logo.png' width='105' height='25' alt=''/>
                         <p>
@@ -23,9 +23,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-6 col-sm-12'>
+                <div className='col-md-6 col-12'>
                     <div className='row'>
-                        <div className={`col-md-4 col-sm-4 ${styles.footerLeft}`}>
+                        <div className={`col-md-4 col-sm-4 col-4 ${styles.footerLeft}`}>
                             <h6>Information</h6>
                             <ul>
                                 <li>About Molla</li>
@@ -35,7 +35,7 @@ const Footer = () => {
                                 <li>Log in</li>
                             </ul>
                         </div>
-                        <div className={`col-md-4 col-sm-4 ${styles.footerLeft}`}>
+                        <div className={`col-md-4 col-sm-4 col-4 ${styles.footerLeft}`}>
                             <h6>Customer Service</h6>
                             <ul>
                                 <li>Payment Method</li>
@@ -46,7 +46,7 @@ const Footer = () => {
                                 <li>Privacy Policy</li>
                             </ul>
                         </div>
-                        <div className={`col-md-4 col-sm-4 ${styles.footerLeft}`}>
+                        <div className={`col-md-4 col-sm-4 col-4 ${styles.footerLeft}`}>
                             <h6>My Account</h6>
                             <ul>
                                 <li>Sign In</li>

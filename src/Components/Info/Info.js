@@ -5,7 +5,7 @@ const Info = () => {
     return (
         <>
             <div className='container my-5'>
-                <div className='row py-3'>
+                <div className='row py-3 gy-3'>
                     <div className='col-md-3 col-sm-6 d-flex justify-content-center align-items-start'>
                         <div className={styles.icon}>
                             <i class="fas fa-rocket fa-2x"></i>
@@ -21,7 +21,7 @@ const Info = () => {
                         </div>
                         <div className={styles.iconContent}>
                             <h6>Free Returns</h6>
-                            <p>within 30 days</p>
+                            <p>within 30 days Home </p>
                         </div>
                     </div>
                     <div className='col-md-3 col-sm-6 d-flex justify-content-center align-items-start'>

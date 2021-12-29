@@ -5,7 +5,7 @@ const BannerGroup = () => {
     return (
         <div className='container my-5'>
             <div className="row gx-3">
-                <div className="col-md-5">
+                <div className="col-md-5 col-sm-12 col-12">
                     <div className='coffe-table'>
                         <img src="https://d-themes.com/react/molla/demo-1/images/home/banners/banner-1.jpg" alt="" className="img-fluid" />
                         <div className='brand-content'>
@@ -18,7 +18,7 @@ const BannerGroup = () => {
                 </div>
                 <div className="col-md-3">
                     <div className=' kitchen-ware'>
-                        <img src="https://d-themes.com/react/molla/demo-1/images/home/banners/banner-2.jpg" alt="" className="img-fluid" />
+                        <img src="https://d-themes.com/react/molla/demo-1/images/home/banners/banner-2.jpg" alt="" className="img-fluid w-100" />
                         <div className='brand-content'>
                             <h4>On Sale</h4>
                             <h3>Collection Chair</h3>
@@ -31,7 +31,7 @@ const BannerGroup = () => {
                     <div className="row gy-3">
                         <div className="col-12">
                             <div className='decore'>
-                                <img src="https://d-themes.com/react/molla/demo-1/images/home/banners/banner-3.jpg" alt="" className="img-fluid" />
+                                <img src="https://d-themes.com/react/molla/demo-1/images/home/banners/banner-3.jpg" alt="" className="img-fluid w-100" />
                                 <div className='brand-content'>
                                     <h4>New Arraivs</h4>
                                     <h3>Home Decor</h3>
@@ -41,7 +41,7 @@ const BannerGroup = () => {
                         </div>
                         <div className="col-12">
                             <div className=' chair'>
-                                <img src="https://d-themes.com/react/molla/demo-1/images/home/banners/banner-4.jpg" alt="" className="img-fluid" />
+                                <img src="https://d-themes.com/react/molla/demo-1/images/home/banners/banner-4.jpg" alt="" className="img-fluid w-100" />
                                 <div className='brand-content'>
                                     <h4>On Sale</h4>
                                     <h3>Collection Chair</h3>

@@ -5,11 +5,13 @@ import logo from '../../../Images/logo.png';
 const SearchBar = () => {
     return (
         <div className='container px-2'>
-            <div className='row mt-4 mb-1'>
-                <div className='col-md-3'>
-                    <img src={logo} width='104' height='27' alt=''/>
+            <div className='row mt-4 mb-1 align-items-center'>
+                <div className='col-md-3 col-6 col-sm-6'>
+                    <div>
+                        <img src={logo} width='104' height='27' alt=''/>
+                    </div>
                 </div>
-                <div className='col-md-6'>
+                <div className='col-md-6 d-none d-sm-none d-md-block'>
                     <form>
                         <div className='row border'>
                             <div className='col-11'>
@@ -21,7 +23,7 @@ const SearchBar = () => {
                         </div>
                     </form>
                 </div>
-                <div className='col-md-3'>
+                <div className='col-md-3 col-6 col-sm-6'>
                     <div className='d-flex justify-content-end'>
                         <div className='d-flex flex-column align-items-center'>
                             <div className={styles.icon}><i class="far fa-user"></i></div>

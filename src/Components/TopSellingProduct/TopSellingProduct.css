@@ -77,3 +77,10 @@
         grid-gap: 15px 10px;
     }
 }
+/* 
+@media screen and (max-width: 768px) {
+    .grid-con{
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 15px 10px;
+    }
+} */

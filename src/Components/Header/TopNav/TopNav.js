@@ -6,7 +6,7 @@ const TopNav = () => {
     return (
         <div className='container'>
             <div className='row align-items-center'>
-                <div className='col-md-3 header-category'>
+                <div className='col-md-3 col-6 col-sm-6 header-category'>
                     <div className='category'>
                         <i class="fas fa-bars icon-bar"></i>
                         <i class="fas fa-times icon-times"></i>
@@ -22,10 +22,10 @@ const TopNav = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='col-md-6'>
+                <div className='col-md-6 col-6 col-sm-6'>
                     <nav className="navbar navbar-expand-lg navbar-light bg-light">
                         <div className="container-fluid">
-                            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                             </button>
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -102,7 +102,7 @@ const TopNav = () => {
                         </div>
                     </nav>
                 </div>
-                <div className='col-md-3'>
+                <div className='col-md-3 d-none d-sm-none d-md-block'>
                     <div className='d-flex justify-content-end'>
                         <i class="far fa-lightbulb me-3"></i>
                         <p>Clearance <strong>Up to 30% Off</strong></p>
