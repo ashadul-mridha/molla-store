@@ -1,11 +1,11 @@
 import React from 'react';
 import './PopularBrand.css';
-import c1 from '../../Images/c1.png';
-import c2 from '../../Images/c2.png';
-import c3 from '../../Images/c3.png';
-import c4 from '../../Images/c4.png';
-import c5 from '../../Images/c5.png';
-import c6 from '../../Images/c6.png';
+import c1 from '../../../Images/c1.png';
+import c2 from '../../../Images/c2.png';
+import c3 from '../../../Images/c3.png';
+import c4 from '../../../Images/c4.png';
+import c5 from '../../../Images/c5.png';
+import c6 from '../../../Images/c6.png';
 
 const PopularBrand = () => {
     return (
