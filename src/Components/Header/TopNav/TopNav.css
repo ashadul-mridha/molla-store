@@ -18,6 +18,7 @@
     padding-bottom: 15px;
     padding-left: 10px;
     transition: 0.3s all ease-in-out;
+    z-index: 888;
 }
 
 .category span{
@@ -71,6 +72,66 @@
     cursor: pointer;
 }
 
+.dasktop-menu{
+    display: grid;
+    grid-template-columns: 26% 64% 20%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+nav > ul > li{
+    padding: 16px 30px 16px 10px;
+    margin-left: 7px;
+    transition: all .5s step-start;
+    font-size: 14px;
+    position: static;
+}
+
+nav > ul > li:hover{
+    color: #bbd873;
+    border-top: 1px solid #bbd873;
+    cursor: pointer;
+}
+
+nav > ul > li:nth-child(3):hover .mega-menu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.mega-menu{
+    position: absolute;
+    margin-top: 15px;
+    color: black;
+    width: 55%;
+    background-color: #ffffff;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.mega-menu p{
+    font-size: 22px;
+    margin: 0px;
+}
+.mega-menu > div > div:first-child{
+    padding: 1px 31px 17px 31px;
+}
+.mega-menu ul > li{
+    font-size: 15px;
+    color: gray;
+    padding: 5px;
+}
+/* 
+nav > ul > li:first-child{
+    margin-left: 0px;
+} */
+
 /* .mega-menu{
     position: absolute;
 }
@@ -86,7 +147,7 @@
 @media screen and (max-width: 992px) {
     
     .dasktop-menu{
-        display: none;
-}
+            display: none;
+    }
 
 }

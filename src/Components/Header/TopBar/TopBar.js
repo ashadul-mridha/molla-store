@@ -5,7 +5,9 @@ const TopBar = () => {
     return (
         <div className='container'>
             <div className={styles.wrapper}>
-                <p>Special collection already available.Read more ...</p>
+                <div>
+                    <p>Special collection already available.Read more ...</p>
+                </div>
                 <ul className={styles.rightbar}>
                     <li className='bb'>Usd <i class="fas fa-angle-down"></i> 
                         <ul className={`${styles.topDropdown} ${styles.moneyDrop}`}>

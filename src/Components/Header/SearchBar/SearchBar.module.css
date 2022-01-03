@@ -13,9 +13,6 @@
 .icon > i{
     font-size: 22px;
 }
-p{
-    font-size: 13px;
-}
 
 .mobileMenuBtn{
     color: rgb(0, 0, 0);
@@ -23,11 +20,29 @@ p{
     visibility: hidden;
 }
 
+.searchWrapper{
+    flex-basis: 550px;
+}
+
+.icon + p{
+    font-size: 11px;
+}
+
+.rightItem{
+    flex-basis: 180px;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* mobile menu */
 @media screen and (max-width: 992px) {
     
     .mobileMenuBtn{
         visibility: visible;
+    }
+
+    .searchWrapper{
+        display: none;
     }
 
 }
