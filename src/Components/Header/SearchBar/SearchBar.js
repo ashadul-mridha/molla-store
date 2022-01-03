@@ -1,13 +1,22 @@
-import React from 'react';
+import React , {useState} from 'react';
 import styles from './SearchBar.module.css';
 import logo from '../../../Images/logo.png';
+import MobileMenu from '../MobileMenu/MobileMenu';
 
 const SearchBar = () => {
+
+    const [mobileMenu , setMobileMenu] = useState(false);
+
+    const handleMobileMenu = () => {
+        setMobileMenu(true);
+    }
     return (
         <div className='container px-2'>
+            {/* <div className={styles.mobileMenuOverlay}> </div> */}
             <div className='row mt-4 mb-1 align-items-center'>
                 <div className='col-md-3 col-6 col-sm-6'>
                     <div>
+                        <button onClick={handleMobileMenu} className={styles.mobileMenuBtn}><i class="fas fa-bars"></i></button>
                         <img src={logo} width='104' height='27' alt=''/>
                     </div>
                 </div>
@@ -40,6 +49,7 @@ const SearchBar = () => {
                     </div>
                 </div>
             </div>
+           { mobileMenu && <MobileMenu setMobileMenu={setMobileMenu}></MobileMenu> }
         </div>
     );
 };

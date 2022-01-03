@@ -4,7 +4,7 @@ import './TopNav.css';
 
 const TopNav = () => {
     return (
-        <div className='container'>
+        <div className='container dasktop-menu'>
             <div className='row align-items-center'>
                 <div className='col-md-3 col-6 col-sm-6 header-category'>
                     <div className='category'>

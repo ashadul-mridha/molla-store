@@ -1,0 +1,103 @@
+/* .mobileMenuOutsite{
+    background-color: rgb(0, 0, 0);
+    min-width: 100vh;
+    min-height: 100vh;
+    opacity: 1;
+    display: block;
+} */
+
+.mobileMenuContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width: 280px;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    z-index: 999;
+    box-shadow: 0.1rem 0 0.6rem 0 rgb(51 51 51 / 50%);
+    transition: all .4s ease-in-out;
+    padding: 5px 8px;
+    overflow-y: scroll;
+}
+
+.closeBtn{
+    font-size: 28px;
+    text-align: right;
+    margin-right: 5px;
+    color: black;
+}
+.closeBtn:hover{
+    color: #acc964;
+    cursor: pointer;
+}
+/* src area */
+/* .mobileSrcArea{
+    margin: 10px 5px;
+} */
+
+.iconSearch{
+    background-color: #acc964;
+    color: #ffffff;
+}
+
+.srcInput{
+    border: 1px solid gray;
+}
+.srcInput:visited{
+    border: 1px solid #acc964;
+}
+
+/* mobile menu tabs */
+.mobileMenuTabs li{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.mobileMenuTabs li:hover{
+    border-bottom: 1px solid #acc964;
+    color: #acc964;
+    cursor: pointer;
+}
+.menuContent > li{
+    color: gray;
+    font-weight: 400;
+    font-size: 13px;
+    position: relative;
+    cursor: pointer;
+}
+
+.menuContent > li:hover{
+    color: #acc964;
+}
+.menuContent > li > span{
+    text-transform: capitalize;
+}
+
+/* dropdown menu content */
+.dropdownMenuContent{
+    list-style: none;
+    margin-top: 8px;
+}
+.dropdownMenuContent > li{
+    padding: 6px 5px;
+    font-size: 15px;
+    color: gray;
+}
+.dropdownMenuContent > li:hover{
+    color: #acc964;
+    cursor: pointer;
+}
+
+/* category idea */
+
+.categoryContent > li{
+    color: gray;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.categoryContent > li:hover{
+    color: #acc964;
+    cursor: pointer;
+}
