@@ -100,23 +100,19 @@ nav > ul > li:hover{
     cursor: pointer;
 }
 
-nav > ul > li:nth-child(3):hover .mega-menu{
-    visibility: visible;
-    opacity: 1;
-}
-
 .mega-menu{
     position: absolute;
     margin-top: 15px;
     color: black;
-    width: 55%;
+    max-width: 85%;
+    min-width: 55%;
     background-color: #ffffff;
     visibility: hidden;
     opacity: 0;
 }
 
 .mega-menu p{
-    font-size: 22px;
+    font-size: 17px;
     margin: 0px;
 }
 .mega-menu > div > div:first-child{
@@ -127,22 +123,28 @@ nav > ul > li:nth-child(3):hover .mega-menu{
     color: gray;
     padding: 5px;
 }
-/* 
-nav > ul > li:first-child{
-    margin-left: 0px;
-} */
-
-/* .mega-menu{
-    position: absolute;
+.home-menu{
+    left: 0;
+    margin-left: 255px;
+    min-width: 85%;
 }
 
-.mega-menu{
-    position: absolute;
-    width: 100%;
-    left: 0;
-    right: 0;
-    padding: 15px;
-} */
+nav > ul > li:nth-child(3):hover .product-menu{
+    visibility: visible;
+    opacity: 1;
+}
+
+nav > ul > li:nth-child(2):hover .shop-menu{
+    visibility: visible;
+    opacity: 1;
+}
+
+nav > ul > li:nth-child(1):hover .home-menu{
+    visibility: visible;
+    opacity: 1;
+}
+
+
 
 @media screen and (max-width: 992px) {
     

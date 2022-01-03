@@ -25,11 +25,71 @@ const TopNav = () => {
                     <ul className='list-unstyled'>
                         <li>Home <i class="fas fa-angle-double-down"></i>
 
+                            <div className='mega-menu home-menu'>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src='https://d-themes.com/react/molla/demo-1/images/menu/banner-1.jpg' className='img-fluid' alt=''/>
+                                        h1
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src='https://d-themes.com/react/molla/demo-1/images/menu/banner-1.jpg' alt='' className='img-fluid'/>
+                                        h2
+                                    </div>
+                                    <div className='col-md-3'>
+                                        <img src='https://d-themes.com/react/molla/demo-1/images/menu/banner-1.jpg' alt='' className='img-fluid'/>
+                                        h3
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src='https://d-themes.com/react/molla/demo-1/images/menu/banner-1.jpg' className='img-fluid' alt=''/>
+                                        h4
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src='https://d-themes.com/react/molla/demo-1/images/menu/banner-1.jpg' alt='' className='img-fluid'/>
+                                        h5
+                                    </div>
+                                    <div className='col-md-3'>
+                                        <img src='https://d-themes.com/react/molla/demo-1/images/menu/banner-1.jpg' alt='' className='img-fluid'/>
+                                        h6
+                                    </div>
+                                </div>
+                            </div>
+
                         </li>
-                        <li>Shop <i class="fas fa-angle-double-down"></i></li>
+                        <li>Shop <i class="fas fa-angle-double-down"></i>
+                        
+                        <div className='mega-menu shop-menu'>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <p>Shop With Sidebar</p>
+                                    <ul className='list-unstyled'>
+                                        <li>Electronic</li>
+                                        <li>Cosmetics</li>
+                                        <li>Shirt</li>
+                                        <li>Pant</li>
+                                        <li>shoes</li>
+                                        <li>Furniture</li>
+                                        <li>Glass</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4">
+                                    <p>product Category</p>
+                                    <ul className='list-unstyled'>
+                                        <li>Electronic</li>
+                                        <li>Cosmetics</li>
+                                        <li>Shirt</li>
+                                        <li>Pant</li>
+                                    </ul>
+                                </div>
+                                <div className='col-md-4'>
+                                    <img src='https://d-themes.com/react/molla/demo-1/images/menu/banner-1.jpg' alt='' width='218' height='311' className='img-fluid'/>
+                                </div>
+                            </div>
+                        </div>
+
+                        </li>
                         <li>Product <i class="fas fa-angle-double-down"></i>
                         
-                        <div className='mega-menu'>
+                        <div className='mega-menu product-menu'>
                             <div class="row">
                                 <div class="col-md-4">
                                     <p>Product Details</p>
