@@ -105,12 +105,14 @@ const TopNav = () => {
                 <div className='col-md-3 d-none d-sm-none d-md-block'>
                     <div className='d-flex justify-content-end'>
                         <i class="far fa-lightbulb me-3"></i>
-                        <p>Clearance <strong>Up to 30% Off</strong></p>
+                        <p>Clearance <strong>Up to 30% Off all time</strong></p>
                     </div>
                 </div>
             </div>
         </div>
     );
 };
+
+
 
 export default TopNav;
