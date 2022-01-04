@@ -125,8 +125,8 @@ nav > ul > li:hover{
 }
 .home-menu{
     left: 0;
-    margin-left: 255px;
-    min-width: 85%;
+    margin-left: 155px;
+    min-width: 65%;
 }
 
 nav > ul > li:nth-child(3):hover .product-menu{
